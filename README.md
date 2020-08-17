@@ -7,9 +7,14 @@ You are asked to design and implement a solution for a lecturer for managing tea
 
 You need to deﬁne a class Teams in which the information pertaining to each team can be stored. It should store at a minimum the students who are members of the team. It should be extensible so that, in future, other information can be added such as the team supervisor, meeting schedules, marks etc. Frequent operations include updating information about individual teams, and tabulating all teams in an alphabetical order. Describe what data structure you would use to store the teams and discuss its eﬃciency considerations.  
 
-Deﬁne the Teams class along with: 
+Deﬁne the Teams class along with:
+
 • a constructor that takes an array of Student objects. 
+
 • methods to add and delete students. 
+
 • a print method that prints all the teams along with their members in the format team : 
+
         member 1, member 2, ... 
+        
   where the teams as well as members appear in sorted order.
